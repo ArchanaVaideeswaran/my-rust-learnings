@@ -4,7 +4,7 @@ use std::cmp::Ordering; // Ordering is an enum with 3 values  "less", "greater",
 use colored::*;
 
 pub fn main() {
-  println!("Guessing Game!");
+  println!("\n{}\n", "Guessing Game!".bold().italic().blue());
 
     let secret_num = rand::thread_rng().gen_range(1..=100);
 
@@ -12,7 +12,7 @@ pub fn main() {
     println!("Guess the secret number within 1 - 100 range");
 
     loop {
-        println!("{}", "Enter your guess".bold().blue());
+        println!("Enter your guess");
 
         let mut guess = String::new();
         io::stdin().read_line(&mut guess).expect("Failed to read your guess");

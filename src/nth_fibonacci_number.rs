@@ -2,7 +2,7 @@ use std::io;
 use colored::*;
 
 pub fn main() {
-  println!("nth Fibonacci Number");
+    println!("\n{}\n", "nth Fibonacci Number".bold().italic().blue());
     println!("Enter a value for 'n'");
 
     let mut n = String::new();
@@ -15,22 +15,25 @@ pub fn main() {
 
     if n == 1 {
         println!(
-            "{}th Fibonacci number is: {}", 
-            n, 
+            "{}{} {}", 
+            n.to_string().bold().italic().green(),
+            "th Fibonacci number is:".bold().italic().green(),
             a.to_string().bold().italic().green()
         );
     }
     else if n == 2 {
         println!(
-            "{}th Fibonacci number is: {}", 
-            n, 
+            "{}{} {}", 
+            n.to_string().bold().italic().green(),
+            "th Fibonacci number is:".bold().italic().green(), 
             b.to_string().bold().italic().green()
         );
     } 
     else if n == 3 {
         println!(
-            "{}th Fibonacci number is: {}", 
-            n, 
+            "{}{} {}", 
+            n.to_string().bold().italic().green(),
+            "th Fibonacci number is:".bold().italic().green(), 
             c.to_string().bold().italic().green()
         );
     } 
@@ -43,8 +46,9 @@ pub fn main() {
             count += 1;          
         }
         println!(
-            "{}th Fibonacci number is: {}", 
-            n, 
+            "{}{} {}", 
+            n.to_string().bold().italic().green(),
+            "th Fibonacci number is:".bold().italic().green(),
             c.to_string().bold().italic().green()
         );
     }
