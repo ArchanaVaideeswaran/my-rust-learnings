@@ -1,5 +1,19 @@
 # My Rust Learnings
 
+## Prerequsites
+
+Install dependencies and build project.
+
+```console
+cargo build
+```
+
+Run
+
+```console
+cargo run
+```
+
 ## Practice
 
 ### [Guessing Game](./src/guessing_game.rs)
