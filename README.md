@@ -45,7 +45,7 @@ Enter your guess
 85
 You guessed right!
 ```
-### [Nth Fibonacci Number](./src/nth_fibonacci_number.rs)
+### [nth Fibonacci Number](./src/nth_fibonacci_number.rs)
 
 ```console
 $ cargo run
