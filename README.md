@@ -1,6 +1,6 @@
 # My Rust Learnings
 
-## Prerequsites
+## Prerequisites
 
 Install dependencies and build project.
 
