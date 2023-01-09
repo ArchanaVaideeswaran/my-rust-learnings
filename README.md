@@ -1,6 +1,8 @@
 # My Rust Learnings
 
-## Prerequisites
+## Installation
+
+Prerequisites: Rust installed in your system.
 
 Install dependencies and build project.
 
