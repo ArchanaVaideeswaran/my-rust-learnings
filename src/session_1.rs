@@ -3,7 +3,7 @@ use rand::Rng; // Rng is a trait (interface)
 use std::cmp::Ordering; // Ordering is an enum with 3 values  "less", "greater", "equal"
 use colored::*;
 
-pub fn main() {
+pub fn guessing_game() {
   println!("\n{}\n", "Guessing Game!".bold().italic().blue());
 
     let secret_num = rand::thread_rng().gen_range(1..=100);

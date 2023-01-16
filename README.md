@@ -18,7 +18,7 @@ cargo run
 
 ## Practice
 
-### [Guessing Game](./src/guessing_game.rs)
+### [Guessing Game](./src/session_1.rs)
 
 Console Output:
 
@@ -47,7 +47,7 @@ Enter your guess
 85
 You guessed right!
 ```
-### [nth Fibonacci Number](./src/nth_fibonacci_number.rs)
+### [nth Fibonacci Number](./src/session_2.rs)
 
 ```console
 $ cargo run
@@ -64,7 +64,7 @@ Enter a value for 'n'
 10th Fibonacci number is: 55
 ```
 
-### [Temperature Converter](./src/temprature_converter.rs)
+### [Temperature Converter](./src/session_2.rs)
 
 ```console
 $ cargo run
@@ -87,7 +87,7 @@ Enter temperature in °F
 102°F = 38.888888888888886°C
 ```
 
-### [Christmas Carol Song](./src/christmas_carol.rs)
+### [Christmas Carol Song](./src/session_2.rs)
 
 ```console
 $ cargo run
