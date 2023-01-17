@@ -1,4 +1,8 @@
+use colored::*;
+
 pub fn main() {
+    println!("\n{}\n", "Vectors in Rust".bold().italic().blue());
+
     // creating vector using new
     let mut v = Vec::new();
     v.push(20);

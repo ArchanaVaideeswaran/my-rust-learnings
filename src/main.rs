@@ -24,4 +24,8 @@ fn main() {
     session_5::structs::main();
     session_5::generics::main();
     session_5::vectors::main();
+    session_5::traits::main();
+    session_5::modules::main();
+    session_5::nested_modules::main();
+    session_5::hashmaps::main();
 }

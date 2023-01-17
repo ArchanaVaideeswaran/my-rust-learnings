@@ -1,4 +1,5 @@
 use std::fmt::Display;
+use colored::*;
 
 struct Data<T> {
   value:T,
@@ -10,6 +11,7 @@ fn print_pro<T:Display>(t:T){
 }
 
 pub fn main() {
+  println!("\n{}\n", "Rust Generics".bold().italic().blue());
   //generic type of i32
   let t:Data<i32> = Data{value:350};
   println!("value is :{} ",t.value);

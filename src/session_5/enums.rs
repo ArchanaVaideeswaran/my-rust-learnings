@@ -1,4 +1,7 @@
+use colored::*;
+
 pub fn main() {
+    println!("\n{}\n", "Rust Enums".bold().italic().blue());
   fn plus_one(x: Option<i32>) -> Option<i32> {
       match x {
           None => None,

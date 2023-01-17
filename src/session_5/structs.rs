@@ -1,3 +1,5 @@
+use colored::*;
+
 #[derive(Debug)]
 struct Rectangle {
     width: u32,
@@ -15,6 +17,8 @@ impl Rectangle {
 }
 
 pub fn main() {
+    println!("\n{}\n", "Rust Structs".bold().italic().blue());
+
     let rect1 = Rectangle {
         width: 30,
         height: 50,
